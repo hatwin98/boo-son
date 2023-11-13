@@ -1,0 +1,90 @@
+header {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    color: black;
+  }
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-size: cover;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+}
+
+ .card {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 5px 90px;
+  background-color: lightblue;
+  border-radius: 15px;
+  border-width: 7px;
+  box-shadow: black 0px 5px 8px 0px;
+  color: black;
+}
+
+
+#password {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 85px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px dashed #c0c7cf;
+    border-radius: 6px;
+    resize: none;
+    overflow: hidden;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    display: block;
+    width: 100%;
+  }
+.btn {
+  border: none;
+  background-color: black;
+  border-radius: 25px;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+
+button[disabled] {
+  cursor: default;
+  background: beige;
+}
+
+@media (max-width: 690px) {
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 15px 15px;
+  }
+
+  #password {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
